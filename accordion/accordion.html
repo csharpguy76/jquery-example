@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Accordion Example</title>
+		<link type="text/css" href="../css/ui-lightness/jquery-ui-1.8.22.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui-1.8.22.custom.min.js"></script>
+
+</head>
+<body>
+	<div id="accordion">
+		<h1><a href="#">Section 1</a></h1>
+		<div>
+		<table id="test1">
+			<thead>
+				<tr><th>Col 1</th><th>Col 2</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td>
+					<ul>
+					    <li><input type="checkbox">Level1</li>
+					    <li><input type="checkbox">Level2</li>
+					    <li><input type="checkbox">Level3</li>
+				    </ul>
+				</td>
+				<td>
+					<ul>
+					    <li><input type="checkbox">Level1</li>
+					    <li><input type="checkbox">Level2</li>
+					    <li><input type="checkbox">Level3</li>
+				    </ul>
+				</td>
+				</tr>
+			</tbody>
+		</table>
+	    </div>
+	    <h1><a href="#">Section 2</a></h1>
+		<div>
+		<table id="test2">
+			<thead>
+				<tr><th>Col 1</th><th>Col 2</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td>
+					<ul>
+					    <li><input type="checkbox">Level1</li>
+					    <li><input type="checkbox">Level2</li>
+					    <li><input type="checkbox">Level3</li>
+				    </ul>
+				</td>
+				<td>
+					<ul>
+					    <li><input type="checkbox">Level1</li>
+					    <li><input type="checkbox">Level2</li>
+					    <li><input type="checkbox">Level3</li>
+				    </ul>
+				</td>
+				</tr>
+			</tbody>
+		</table>
+	    </div>
+	</div>
+	
+	<script>
+	$("#accordion").accordion();
+	</script>
+</body>
+</html>
